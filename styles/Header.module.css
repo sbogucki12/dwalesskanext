@@ -7,19 +7,54 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 60px;
   font-family: Raleway, arial, sans-serif;
   text-transform: none;
   letter-spacing: normal;
   background-color: #f5f7f8;
 }
 
-.menu {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 415px) {
+  .header__menu {
+    display: none;
+  } /* do not show menu links on mobile */
 }
 
-.menu__item {
+@media (min-width: 416px) {
+  .header__menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.header__menu__item {
+}
+
+@media (min-width: 416px) {
+  .header__bars {
+    display: none;
+  } /* do not show bars on desktop */
+}
+
+@media (max-width: 415px) {
+  .header__bars {
+    padding: 6px;
+    vertical-align: top;
+    position: fixed;
+    top: 5;
+    left: 5px;
+    color: inherit;
+    font-family: Raleway, arial, sans-serif;
+    text-transform: none;
+    letter-spacing: normal;
+    box-sizing: inherit;
+    width: 40px;
+    height: 40px;
+  } /* do show bars on mobile */
 }

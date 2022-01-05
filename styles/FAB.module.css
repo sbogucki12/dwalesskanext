@@ -1,0 +1,26 @@
+.fab {
+    position: fixed;
+    bottom: 2%;
+    right: 15px; 
+    transform: translateZ(0px);
+    box-shadow: rgb(0 0 0 / 25%) 0px 3px 18px;
+    background-color: rgb(231, 225, 225);
+    border-radius: 50%;    
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    width: 65px;
+    height: 65px;
+    text-transform: none;
+    letter-spacing: normal;
+    box-sizing: inherit;
+}
+
+
+
+
+.fab__icon {
+
+}

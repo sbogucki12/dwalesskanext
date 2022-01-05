@@ -1,13 +1,17 @@
 # Dwalesska (NextJs)
 
-Rebuilding [dwalesska.com](http://dwalesska.azurewebsites.net/) via NextJs.  
+Rebuilding [dwalesska.com](http://dwalesska.azurewebsites.net/) via NextJs.
 
+## Jan 4, 2022
 
-
-
+<p>Setting up the layout.</p>  
+<ul>
+    <li>Created the header. Menu items display on large screens, sandwich bars on mobile.</li>
+    <li>Created the Floated Action Button.</li>
+</ul> 
+<img src="https://bogoodski.blob.core.windows.net/dwalesska/layout0GIF.gif">
 
 ### Boilerplate ReadMe
-
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
