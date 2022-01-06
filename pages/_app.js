@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import { Header, Title, Footer, FAB } from "../components";
+import { Header, Title, Footer, FAB, MobileMenu } from "../components";
 
 function MyApp({ Component, pageProps, children }) {
   return (

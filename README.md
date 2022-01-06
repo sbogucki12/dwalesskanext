@@ -2,6 +2,13 @@
 
 Rebuilding [dwalesska.com](http://dwalesska.azurewebsites.net/) via NextJs.
 
+## Jan 6, 2022 
+
+<p>Implementing the mobile menu.</p>
+<p><i>TO DO:</i></p>
+<p>[  ] Add transition ease-in-out to menu</p>
+<p><img src="http://g.recordit.co/M4H7cWaHsL.gif" /></p>
+
 ## Jan 4, 2022
 
 <p>Setting up the layout.</p>  
@@ -9,7 +16,7 @@ Rebuilding [dwalesska.com](http://dwalesska.azurewebsites.net/) via NextJs.
     <li>Created the header. Menu items display on large screens, sandwich bars on mobile.</li>
     <li>Created the Floated Action Button.</li>
 </ul> 
-<img src="https://bogoodski.blob.core.windows.net/dwalesska/layout0GIF.gif">
+<p><img src="https://bogoodski.blob.core.windows.net/dwalesska/layout0GIF.gif"></p>
 
 ### Boilerplate ReadMe
 
